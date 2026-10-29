@@ -1,0 +1,9 @@
+app/*.tsx linguist-detectable  
+
+*.md linguist-documentation
+*.ts linguist-detectable
+public/index.html linguist-vendored  
+build/* linguist-vendored
+node_modules/* linguist-vendored
+*.min.js linguist-generated
+*.yaml linguist-detectable=false
